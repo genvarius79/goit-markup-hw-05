@@ -380,14 +380,8 @@ button {
 .close-button:focus .icon-close {
   fill: #ffffff;
 }
-.form-container {
+.container-input {
   position: relative;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  display: block;
-  margin-bottom: 4px;
 }
 .icon-form {
   position: absolute;
