@@ -296,7 +296,14 @@ button {
 .lable-container {
   margin-bottom: 8px;
 }
-
+.form-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
 .form-input {
   width: 100%;
   height: 40px;
@@ -375,6 +382,12 @@ button {
 }
 .form-container {
   position: relative;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
 }
 .icon-form {
   position: absolute;
