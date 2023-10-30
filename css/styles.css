@@ -258,7 +258,162 @@ button {
   background: #404bbf;
 }
 /* ==============   End Hero  ============================= */
+/* ++++++++++++++  Modal  ++++++++++++++++++++++++ */
 
+.backdrop {
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-15%, -39%);
+  position: fixed;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.14))
+    drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.12))
+    drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.2));
+}
+input,
+textarea,
+button {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+  border: 1px solid #212121;
+  width: 408px;
+  height: 584px;
+  border-radius: 4px;
+  background-color: #fcfcfc;
+}
+
+.form-button {
+  align-self: flex-start;
+}
+
+.form-input {
+  padding: 4px;
+  color: #212121;
+  border: 1px solid #212121;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+.comment {
+  width: 360px;
+}
+.form-input::placeholder {
+  color: #616161;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+}
+.icon-close {
+  fill: #212121;
+}
+.round-close {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e9fc;
+  border-radius: 50%;
+}
+
+.form-container {
+  padding: 3px 0px;
+  position: relative;
+}
+.icon-name {
+  display: block;
+  fill: #4d5ae5;
+  position: absolute;
+  left: 16px;
+  bottom: 11px;
+  top: 11px;
+}
+.icon-phone {
+  display: block;
+  fill: #2e2f42;
+  position: absolute;
+  left: 16px;
+  bottom: 8px;
+  top: 8px;
+}
+.icon-mail {
+  display: block;
+  fill: #2e2f42;
+  position: absolute;
+  left: 16px;
+  bottom: 8px;
+  top: 8px;
+}
+.chackbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 360px;
+  gap: 8px;
+}
+.chackbox-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.14em;
+  color: #8e8f99;
+}
+.privacy-policy {
+  color: #4d5ae5;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+}
+.chackbox-icon {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+}
+.icon-chackbox {
+  stroke: #2e2f42;
+}
+input {
+  text-indent: 42px;
+}
+.form-button {
+  width: 105px;
+  padding: 16px 32px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* ==============  End Modal  ==================== */
 /* ++++++++++++++   About Us  ++++++++++++++++++++++++++++++++ */
 
 .about-as-list {
