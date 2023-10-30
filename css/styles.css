@@ -644,6 +644,11 @@ button {
 }
 
 .container-subscribe {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
 }
 .text-subscribe {
   margin-bottom: 16px;
@@ -657,8 +662,7 @@ button {
   display: flex;
   gap: 24px;
 }
-.footer-lable {
-}
+
 .input-footer {
   width: 264px;
   height: 40px;
@@ -690,5 +694,6 @@ button {
 }
 .icon-footer-send {
   margin-left: 16px;
+  fill: #ffffff;
 }
 /* ============   End Footer   =============================== */
