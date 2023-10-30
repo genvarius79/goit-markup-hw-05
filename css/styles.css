@@ -684,7 +684,7 @@ button {
 .chackbox-user:checked + .chackbox-text > .user-box {
   background-color: #404bbf;
   border: none;
-  stroke: #f4f4fd;
+  fill: #f4f4fd;
 }
 .send-button {
   display: block;
